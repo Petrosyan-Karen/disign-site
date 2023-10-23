@@ -1,0 +1,28 @@
+.footer {
+  text-align: center;
+ 
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 25px 0;
+
+  &__item {
+     margin-right: 35px;
+     transition: all .3s;
+ 
+    img {
+      width: 30px;
+      height: 30px;
+      &:hover {
+        transform: scale(1.1);
+        fill: $primary;
+      }
+       &:last-child{
+         margin-right: 0;
+      }
+    }
+  }
+}
